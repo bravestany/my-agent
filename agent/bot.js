@@ -4,7 +4,7 @@ const res = await fetch(`https://api.telegram.org/bot8859309057/setWebhook`, {
 		"Content-Type": "application/json",
 	},
 	body: JSON.stringify({
-		url: `https://bravesbot.versal.app/eve/v1/telegram`,
+		url: `https://bravestanysbot.versal.app/eve/v1/telegram`,
 	    secret_token:"1234567890",
 		allowed_updates: ["message", "callback_query"],
 	}),
